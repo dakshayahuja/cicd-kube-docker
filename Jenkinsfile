@@ -2,7 +2,7 @@ pipeline {
   agent any
   tools{
     maven 'maven3'
-    jdk 'OracleJDK11'
+    jdk 'OracleJDK8'
   }
   environment {
     registry = "dakshayahuja/vproappdock"
